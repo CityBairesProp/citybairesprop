@@ -9638,7 +9638,7 @@ textarea {
   transform: translate(-50%, -50%); }
 
 .menu-bg-wrap {
-  background-color: #005555;
+  background-color: black;
   padding: 20px 30px;
   position: relative;
   float: left;
@@ -9699,7 +9699,7 @@ textarea {
   .hero .form-search .form-control {
     margin-right: 10px; }
   .hero .form-search .btn {
-    background-color: #005555;
+    background-color: black;
     padding-left: 30px;
     padding-right: 30px;
     color: #fff; }
@@ -9780,7 +9780,7 @@ textarea {
   -o-transition: .3s all ease;
   transition: .3s all ease; }
   .btn.btn-primary {
-    background: #005555;
+    background: black;
     color: #fff; }
   .btn:hover {
     top: -2px;
