@@ -1973,5 +1973,14 @@ body {
 
 .col-md-6 {
   color: black;
-  font-weight: bold;
+   font-weight: bold;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; 
+}
+
+.redondo {
+  border-radius: 50%;
 }
