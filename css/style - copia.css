@@ -1984,3 +1984,32 @@ body {
 .redondo {
   border-radius: 50%;
 }
+
+
+.consultar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  width: 100px; /* Ancho del botón */
+  height: 40px; /* Altura del botón */
+  background-color: #0056b3; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none; /* Quita la subraya de los enlaces */
+  text-align: center;
+  line-height: 100px; /* Centra verticalmente el texto en el botón */
+}
+
+.consultar:hover {
+  background-color: #001e3e; /* Cambia el color al pasar el ratón por encima */
+  color: #fff;
+}
+
+#map-container {
+  height: 400px; /* Ajusta la altura según sea necesario */
+  margin-top: 20px;
+}

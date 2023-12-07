@@ -10360,4 +10360,9 @@ nav[aria-label="breadcrumb"] li:before {
       .site-footer .social li a:hover {
         background: #00204a;
         color: #fff; }
+        
+        #map-container {
+          height: 400px; /* Ajusta la altura según sea necesario */
+          margin-top: 20px;
+        }
   /* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA *//* LA MAGIA */
