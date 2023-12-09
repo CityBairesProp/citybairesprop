@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Untree.co" />
-    <link rel="shortcut icon" href="favicon.png" />
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="bootstrap, bootstrap5" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Untree.co" />
+  <link rel="shortcut icon" href="favicon.png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap5" />
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css" />
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="css/tiny-slider.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="fonts/icomoon/style.css" />
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
 
-    <title>
-      Contacto &mdash; City Baires Propiedades
-    </title>
-  </head>
-  <body>
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close">
-          <span class="icofont-close js-menu-toggle"></span>
-        </div>
+  <link rel="stylesheet" href="css/tiny-slider.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>
+    Contacto &mdash; City Baires Propiedades
+  </title>
+</head>
+
+<body>
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
       </div>
-      <div class="site-mobile-menu-body"></div>
     </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
 
-    <nav class="site-nav">
-      <div class="container">
-        <div class="menu-bg-wrap">
-          <div class="site-navigation">
-            <a href="index.html" class="logo m-0 float-start"> <img src="images/Logo-sin-fondo.png" alt="City Baires Logo" height="40"></a>
+  <nav class="site-nav">
+    <div class="container">
+      <div class="menu-bg-wrap">
+        <div class="site-navigation">
+          <a href="index.html" class="logo m-0 float-start"> <img src="images/Logo-sin-fondo.png" alt="City Baires Logo"
+              height="40"></a>
 
-            <ul
-            class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
-            >
-              <li><a href="index.html">Home</a></li>
-              <li>
-                <a href="properties.html">Propiedades</a>
-                <!--<ul class="dropdown">
+          <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+            <li><a href="index.html">Home</a></li>
+            <li> <a href="properties.html">Venta</a>
+              <!-- <ul class="dropdown">
                   <li><a href="#">En Venta</a></li>
                   <li><a href="#">En Alquiler</a></li>
                   <li class="has-children">
@@ -60,268 +57,227 @@
                     </ul>
                   </li>
                 </ul> -->
+            </li>
+            <li><a href="properties.html">Alquiler</a></li>
+            <!-- <li><a href="services.html">Servicios</a></li>
+            <li><a href="about.html">Sobre nosotros</a></li> -->
+            <li class="active"><a href="contact.html">Contáctanos</a></li>
+          </ul>
+
+          <a href="#"
+            class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+            data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero page-inner overlay" style="background-image: url('images/hero_bg_1.jpg')">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-9 text-center mt-5">
+          <h1 class="heading" data-aos="fade-up">Contáctanos</h1>
+
+          <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="200">
+            <ol class="breadcrumb text-center justify-content-center">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active text-white-50" aria-current="page">
+                Contact
               </li>
-              <li><a href="services.html">Servicios</a></li>
-              <li><a href="about.html">Sobre nosotros</a></li>
-              <li class="active"><a href="contact.html">Contáctanos</a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor para el mapa -->
+  <div id="map-container">
+    <!-- iframe para cargar la interfaz web de Google Maps con un marcador -->
+    <iframe width="100%" height="100%" frameborder="0" style="border:0"
+      src="https://maps.google.com/maps?q=S%C3%A1nchez%20de%20Bustamante%201613%2C%20C1425DUG%20CABA&hl=es&z=15&output=embed"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="contact-info">
+            <div class="address mt-2">
+              <i class="icon-room"></i>
+              <h4 class="mb-2">Ubicación:</h4>
+              <p>
+                Sanchez de Bustamante 1613,<br />
+                Recoleta CABA, Argentina
+                London 3910
+              </p>
+            </div>
+
+            <div class="open-hours mt-4">
+              <i class="icon-clock-o"></i>
+              <h4 class="mb-2">Horarios:</h4>
+              <p>
+                Lunes-Viernes: 9:00 - 19:00 <br>
+                Sabados: 9:00 - 13:00
+              </p>
+            </div>
+
+            <div class="email mt-4">
+              <i class="icon-envelope"></i>
+              <h4 class="mb-2">Email:</h4>
+              <p><a href="mailto:info@citybairesprop.com">info@citybairesprop.com</a></p>
+            </div>
+
+            <div class="phone mt-4">
+              <i class="icon-phone"></i>
+              <h4 class="mb-2">Telefono:</h4>
+              <p>+54 9 11 2176-5784</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+          <form action="#">
+            <div class="row">
+              <div class="col-6 mb-3">
+                <input type="text" class="form-control" placeholder="Nombre" />
+              </div>
+              <div class="col-6 mb-3">
+                <input type="email" class="form-control" placeholder="Correo Electronico" />
+              </div>
+              <div class="col-12 mb-3">
+                <input type="text" class="form-control" placeholder="Asunto" />
+              </div>
+              <div class="col-12 mb-3">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
+              </div>
+
+              <div class="col-12">
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Contacto</h3>
+            <a href="https://maps.app.goo.gl/bEZY8ofhxcJPFryw6" target="_blank">Sanchez de Bustamante 1613,<br>Recoleta
+              CABA, Argentina</a>
+            <br>
+            <ul class="list-unstyled links">
+              <li><a
+                  href="https://api.whatsapp.com/send?phone=+5491121765784&text=Hola%20City%20Baires%20Propiedades!%20Me%20gustaria%20obtener%20mayor%20información%20sobre%20sus%20servicios,%20me%20gustaría%20hablar%20con%20Melisa.">+54
+                  9 11 2176-5784</a></li>
+              <li><a
+                  href="https://api.whatsapp.com/send?phone=+5491164394354&text=Hola%20City%20Baires%20Propiedades!%20Me%20gustaria%20obtener%20mayor%20información%20sobre%20sus%20servicios,%20me%20gustaría%20hablar%20con%20Matias.">+54
+                  9 11 6439-4354</a></li>
+              <li><a
+                  href="https://api.whatsapp.com/send?phone=+5466761693&text=Hola%20City%20Baires%20Propiedades!%20Me%20gustaria%20obtener%20mayor%20información%20sobre%20sus%20servicios,%20me%20gustaría%20hablar%20con%20Felipe.">+54
+                  9 11 6676-1693</a></li>
+              <li>
+                <a href="mailto:info@mydomain.com">info@citybairesprop.com</a>
+              </li>
             </ul>
-
-            <a
-              href="#"
-              class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
-              data-toggle="collapse"
-              data-target="#main-navbar"
-            >
-              <span></span>
-            </a>
           </div>
+          <!-- /.widget -->
         </div>
-      </div>
-    </nav>
-
-    <div
-      class="hero page-inner overlay"
-      style="background-image: url('images/hero_bg_1.jpg')"
-    >
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-lg-9 text-center mt-5">
-            <h1 class="heading" data-aos="fade-up">Contáctanos</h1>
-
-            <nav
-              aria-label="breadcrumb"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <ol class="breadcrumb text-center justify-content-center">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li
-                  class="breadcrumb-item active text-white-50"
-                  aria-current="page"
-                >
-                  Contact
-                </li>
-              </ol>
-            </nav>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Fuentes</h3>
+            <ul class="list-unstyled float-start links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Venta</a></li>
+              <li><a href="#">Alquiler</a></li>
+              <li><a href="#">Contactar</a></li>
+            </ul>
+            <ul class="list-unstyled float-start links">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Linkedin</a></li>
+            </ul>
           </div>
+          <!-- /.widget -->
         </div>
-      </div>
-    </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Redes Sociales</h3>
+            <!-- <ul class="list-unstyled links">
+              <li><a href="#">Nuestra vision</a></li>
+              <li><a href="#">Sobre nosotros</a></li>
+              <li><a href="#">Contáctanos</a></li>
+            </ul> -->
 
-    <!-- Contenedor para el mapa -->
-    <div id="map-container">
-      <!-- iframe para cargar la interfaz web de Google Maps con un marcador -->
-      <iframe width="100%" height="100%" frameborder="0" style="border:0"
-        src="https://maps.google.com/maps?q=S%C3%A1nchez%20de%20Bustamante%201613%2C%20C1425DUG%20CABA&hl=es&z=15&output=embed" allowfullscreen>
-      </iframe>
-    </div>
-
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-4 mb-5 mb-lg-0"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="contact-info">
-              <div class="address mt-2">
-                <i class="icon-room"></i>
-                <h4 class="mb-2">Ubicación:</h4>
-                <p>
-                  Sanchez de Bustamante 1613,<br/>
-                  Recoleta CABA, Argentina
-                  London 3910
-                </p>
-              </div>
-
-              <div class="open-hours mt-4">
-                <i class="icon-clock-o"></i>
-                <h4 class="mb-2">Horarios:</h4>
-                <p>
-                  Lunes-Viernes: 9:00 - 19:00 <br>
-                  Sabados: 9:00 - 13:00
-                </p>
-              </div>
-
-              <div class="email mt-4">
-                <i class="icon-envelope"></i>
-                <h4 class="mb-2">Email:</h4>
-                <p><a href="mailto:info@citybairesprop.com">info@citybairesprop.com</a></p>
-              </div>
-
-              <div class="phone mt-4">
-                <i class="icon-phone"></i>
-                <h4 class="mb-2">Telefono:</h4>
-                <p>+54 9 11 2176-5784</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <form action="#">
-              <div class="row">
-                <div class="col-6 mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Nombre"
-                  />
-                </div>
-                <div class="col-6 mb-3">
-                  <input
-                    type="email"
-                    class="form-control"
-                    placeholder="Correo Electronico"
-                  />
-                </div>
-                <div class="col-12 mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Asunto"
-                  />
-                </div>
-                <div class="col-12 mb-3">
-                  <textarea
-                    name=""
-                    id=""
-                    cols="30"
-                    rows="7"
-                    class="form-control"
-                    placeholder="Mensaje"
-                  ></textarea>
-                </div>
-
-                <div class="col-12">
-                  <input
-                    type="submit"
-                    value="Enviar"
-                    class="btn btn-primary"
-                  />
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="widget">
-              <h3>Contacto</h3>
-              <a href="https://maps.app.goo.gl/bEZY8ofhxcJPFryw6" target="_blank">Sanchez de Bustamante 1613,<br>Recoleta CABA, Argentina</a> 
-              <br>
-              <ul class="list-unstyled links">
-                <li><a href="tel://5491121765784">+54 9 11 2176-5784</a></li>
-                <li><a href="tel://5491164394354">+54 9 11 6439-4354</a></li>
-                <li><a href="tel://5491166761693">+54 9 11 6676-1693</a></li>
-                <li>
-                  <a href="mailto:info@mydomain.com">info@citybairesprop.com</a>
-                </li>
-              </ul>
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <div class="widget">
-              <h3>Sources</h3>
-              <ul class="list-unstyled float-start links">
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Vision</a></li>
-                <li><a href="#">Mision</a></li>
-                <li><a href="#">Terminos y condiciones</a></li>
-                <li><a href="#">Privacidad</a></li>
-              </ul>
-              <ul class="list-unstyled float-start links">
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Creative</a></li>
-              </ul>
-            </div>
-            <!-- /.widget -->
-          </div>
-          <!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <div class="widget">
-              <h3>Links</h3>
-              <ul class="list-unstyled links">
-                <li><a href="#">Nuestra vision</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Contáctanos</a></li>
-              </ul>
-
-              <ul class="list-unstyled social">
-                <li>
-                  <a href="#"><span class="icon-instagram"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="icon-twitter"></span></a>
-                </li>
-                <li>
-                  <a href="#"><span class="icon-facebook"></span></a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/company/citybairesar/"><span class="icon-linkedin"></span></a>
-                </li>
-                <!-- <li>
+            <ul class="list-unstyled social">
+              <li>
+                <a href="#"><span class="icon-instagram"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-twitter"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-facebook"></span></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/citybairesar/"><span class="icon-linkedin"></span></a>
+              </li>
+              <!-- <li>
                   <a href="#"><span class="icon-pinterest"></span></a>
                 </li>
                 <li>
                   <a href="#"><span class="icon-dribbble"></span></a>
                 </li> -->
-              </ul>
-            </div>
-            <!-- /.widget -->
+            </ul>
           </div>
-          <!-- /.col-lg-4 -->
+          <!-- /.widget -->
         </div>
-        <!-- /.row -->
+        <!-- /.col-lg-4 -->
+      </div>
+      <!-- /.row -->
 
-        <div class="row mt-5">
-          <div class="col-12 text-center">
-            <!-- 
-              **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
-              **==========
-            -->
-
-            <p>
-              Copyright &copy;
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              . All Rights Reserved. &mdash; Designed by
-              <a href="https://citybairesprop.com.ar">City Baires Prop</a>
-            </p>
-          </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            . All Rights Reserved. &mdash; Designed by
+            <a href="https://citybairesprop.com.ar">City Baires Prop</a>
+          </p>
         </div>
       </div>
-      <!-- /.container -->
     </div>
-    <!-- /.site-footer -->
+    <!-- /.container -->
+  </div>
+  <!-- /.site-footer -->
 
-    <!-- Preloader -->
-    <div id="overlayer"></div>
-    <div class="loader">
-      <div class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
+  <!-- Preloader -->
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
     </div>
+  </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
 </html>
